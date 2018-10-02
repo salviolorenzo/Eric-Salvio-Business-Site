@@ -1,0 +1,159 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color:#fffafaa1;
+
+}
+li{
+    list-style-type: none;
+}
+header{
+    border-bottom: 1px black solid;
+    text-align: center;
+    padding: 0;
+    width:100%;
+    background-color: #d0d0d0bd;
+    color: black;
+}
+header h1{
+    margin:0;
+    padding-top:10px;
+}
+header ul{
+    width:100%;
+    padding:0;
+}
+
+header li{
+    display: inline-block;
+    width: 18%;
+    border: 1px solid lightblue;
+    border-radius: 10%;
+    margin:0;
+}
+
+.hero-image{
+    background-image: url('images/stock_chart.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    
+}
+
+.hero-image h1{
+    padding: 2px;
+    border: 3px solid white;
+}
+
+.about h2{
+    margin: 0;
+    padding: 10px 0 0 10px;
+    display: inline-block;
+}
+.about img{
+    width: 40%;
+    float: right;
+    margin:10px 20px 0 0;
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.cert-list{
+    padding: 10px 0 30px 30px;
+}
+
+.cert-list li{
+    padding: 5px 0;
+}
+
+.about p{
+    padding: 0 10px;
+}
+
+.second-image{
+    background-image: url('images/calculator.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:Black;
+}
+.second-image h2{
+    border: 2px solid white;
+    padding: 2px;
+}
+
+.services{
+    padding: 0 10px;
+}
+
+.services ul{
+    padding:0;
+}
+
+.services li{
+    font-weight: bold;
+}
+
+.services p{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.back-image3{
+    background-image: url('images/handshake.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.back-image3 h2{
+    position: relative;
+    top: 50px;
+}
+
+.accounts{
+    padding: 0 10px;
+    text-align: center;
+}
+.accounts ul{
+    padding: 0;
+}
+.accounts li{
+    padding: 5px 0;
+}
+
+footer{
+    text-align: center;
+    max-height: 100px;
+    border-top: 1px solid black;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    padding: 5px 0;
+}
