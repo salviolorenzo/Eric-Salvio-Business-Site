@@ -201,7 +201,7 @@ footer ul{
 }
 
 footer li{
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
     font-size: 18px;
 }
@@ -214,6 +214,11 @@ footer input{
     width: 80%;
     margin: 10px auto;
     padding: 10px;
+}
+
+.disclosures p{
+    font-size: 8px;
+    padding: 0 10px;
 }
 
 @media screen and (min-width: 500px){
