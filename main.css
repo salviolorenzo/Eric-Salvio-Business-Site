@@ -72,12 +72,19 @@ header li{
     padding: 10px 0 0 10px;
     display: inline-block;
 }
-.about img{
+
+.about .card{
+    width: 100%;
+    max-height: 300px;
+    outline: 1px red solid;
+}
+.card img{
     width: 40%;
     float: right;
-    margin:10px 20px 0 0;
+    margin:5px 20px 20px 0;
     border-radius: 50%;
-    max-width: 100px;
+    outline: inherit;
+    max-width: 200px;
 }
 
 .cert-list{
@@ -180,4 +187,11 @@ footer input{
     width: 80%;
     margin: 10px auto;
     padding: 10px;
+}
+
+@media screen and (min-width: 500px){
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
