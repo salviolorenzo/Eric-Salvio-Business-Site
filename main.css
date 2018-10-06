@@ -43,7 +43,7 @@ header ul{
 header li{
     display: inline-block;
     width: 18%;
-    font-size: 16px;
+    font-size: 12px;
     border: 1px solid white;
     border-radius: 10%;
     margin:0;
@@ -156,7 +156,9 @@ header li{
 }
 .back-image3 h2{
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
+    padding: 2px;
+    border: 3px solid white;
 }
 
 .accounts{
