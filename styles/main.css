@@ -90,6 +90,12 @@ header nav{
     /* width: */
 }
 
+#name{
+  font-size: 28px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
 .about h2{
     margin: 0;
     padding: 10px 0 0 10px;
@@ -257,6 +263,10 @@ footer input{
         flex-wrap: wrap;
     } */
 
+    #name{
+      font-size: 30px;
+    }
+
     .cert-list li,  .services li, .accounts li{
         font-size: 22px;
     }
@@ -283,12 +293,16 @@ footer input{
     }
 
     .cert-list{
-        width: 60%;
+        width: 55%;
         margin: 5px;
     }
 
     .about img{
       max-height: 300px;
+    }
+
+    #name{
+      font-size: 32px;
     }
 
     .cert-list li,  .services li, .accounts li{
