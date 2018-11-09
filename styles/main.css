@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html, body{
     width: 100%;
     margin: 0;
@@ -8,6 +15,11 @@ body{
     background-color:#fffafaa1;
 
 }
+
+ul{
+  padding: 0;
+}
+
 li{
     list-style-type: none;
 }
@@ -44,22 +56,24 @@ header nav{
 }
 
 
-
-.hero-image{
-    background-image: url('images/stock_chart.jpeg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    min-width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:rgb(0, 0, 0);
-    
+.hero-image, .second-image ,.back-image3{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  min-width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgb(0, 0, 0);
 }
 
+.hero-image{
+  background-image: url('../images/stock_chart.jpeg');
+  min-height: 500px;
+}
 .hero-image h1{
     padding: 2px;
     border: 2px solid white;
@@ -90,11 +104,12 @@ header nav{
 }
 
 .cert-list{
-    padding: 10px 0 30px 30px;
+    padding: 0 0 0 10px;
 }
 
 .cert-list li{
     padding: 5px 0;
+    font-weight: bold;
 }
 
 .about p{
@@ -102,16 +117,8 @@ header nav{
 }
 
 .second-image{
-    background-image: url('images/calculator.jpeg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    min-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:Black;
+    background-image: url('../images/calculator.jpeg');
+
 }
 .second-image h2{
     border: 2px solid white;
@@ -121,36 +128,35 @@ header nav{
 }
 
 .services{
-    padding: 0 10px;
+    /* padding: 0 10px; */
+    display:flex;
+    justify-content: center;
 }
 
 .services ul{
     padding:0;
+    flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .services li{
     font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid rgba(232, 237, 255, 0.9);
+
 }
 
-.services p{
-    padding-left: 20px;
-    padding-right: 10px;
+.info-hidden{
+  display: none;
 }
 
 .back-image3{
-    background-image: url('images/handshake.jpeg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    min-width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:black;
+    background-image: url('../images/handshake.jpeg');
+
 }
 .back-image3 h2{
     padding: 2px;
@@ -202,7 +208,6 @@ footer ul{
 
 footer li{
     padding: 10px;
-    display: inline-block;
     font-size: 20px;
     color: white;
 }
@@ -220,9 +225,11 @@ footer i:hover{
 
 footer form{
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 footer input{
-    display: block;
+    /* display: block; */
     width: 80%;
     margin: 10px auto;
     padding: 10px;
