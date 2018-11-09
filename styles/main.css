@@ -85,6 +85,8 @@ header nav{
 .about{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     /* width: */
 }
 
@@ -185,12 +187,18 @@ header nav{
     width: 100%; 
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
     justify-content: space-evenly;
 }
 .account-links li{
-    padding: 5px 0;
+    padding: 15px 0;
     width: 100%;
     font-size: 20px;
+    border-bottom: 1px solid rgba(232, 237, 255, 0.9);
+}
+
+.services li:hover, .account-links li:hover{
+  cursor: pointer;
 }
 
 footer{
@@ -261,11 +269,7 @@ footer input{
         font-size: 18px;
     }
 
-    .account-links li{
-        padding: 5px 0;
-        width: 50%;
-        font-size: 24px;
-    }
+
 
 }
 
@@ -279,8 +283,12 @@ footer input{
     }
 
     .cert-list{
-        width: 30%;
+        width: 60%;
         margin: 5px;
+    }
+
+    .about img{
+      max-height: 300px;
     }
 
     .cert-list li,  .services li, .accounts li{
@@ -295,12 +303,6 @@ footer input{
         font-size: 24px;
     }
 
-    .account-links li{
-        padding: 5px 0;
-        width: 30%;
-        font-size: 24px;
-    }
-
     footer ul{
         justify-content: space-evenly;
     }
@@ -311,9 +313,16 @@ footer input{
 }
 
 @media screen and (min-width: 900px){
-    .account-links li{
-        padding: 5px 0;
-        width: 20%;
-        font-size: 30px;
-    }
+  .about img{
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1200px){
+  .cert-list{
+    width: 70%;
+  }
+
+  .about img{
+    width: 25%;
+  }
 }
