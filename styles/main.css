@@ -1,3 +1,12 @@
+@keyframes expand {
+  from {
+    max-height: 0;
+    }
+  to{
+    max-height: 100%;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -132,6 +141,7 @@ header nav{
 
 }
 .second-image h2{
+    /* font-size: 30px; */
     border: 2px solid white;
     padding: 2px;
     background-color: rgba(232, 237, 255, 0.5);
@@ -144,15 +154,15 @@ header nav{
     justify-content: center;
 }
 
-.services ul{
+/* .services ul{
     padding:0;
     flex-direction: column;
     display: flex;
     width: 100%;
-}
+} */
 
 .services li{
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -161,8 +171,21 @@ header nav{
 
 }
 
+.info {
+  animation: expand 1s ease-in-out;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+.info li{
+  animation: expand 1s ease-in-out;
+}
+
 .info-hidden{
   display: none;
+  height: 0;
+
+  /* animation: expand 5s ease-in-out; */
 }
 
 .back-image3{
@@ -205,6 +228,13 @@ header nav{
 
 .services li:hover, .account-links li:hover{
   cursor: pointer;
+}
+
+
+.resourceList li{
+  font-size: 16px;
+  border: none;
+  /* width: 50%; */
 }
 
 footer{
