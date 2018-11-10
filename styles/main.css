@@ -37,7 +37,7 @@ a{
     color: black;
 }
 a:hover{
-    color: cornflowerblue;
+    color: rgb(20, 102, 255);
     transform: scale(2);
 }
 
@@ -154,13 +154,6 @@ header nav{
     justify-content: center;
 }
 
-/* .services ul{
-    padding:0;
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-} */
-
 .services li{
     /* font-weight: bold; */
     width: 100%;
@@ -172,13 +165,22 @@ header nav{
 }
 
 .info {
-  animation: expand 1s ease-in-out;
+  /* animation: expand 1s ease-in-out; */
   background-color: #f2f2f2;
-  padding: 5px;
+  padding: 10px;
+}
+
+p{
+  margin: 0;
 }
 
 .info li{
   animation: expand 1s ease-in-out;
+}
+
+.info li:hover{
+  transform: scale(1.2);
+  transition: transform 0.25s;
 }
 
 .info-hidden{
@@ -301,6 +303,9 @@ footer input{
         font-size: 22px;
     }
 
+    .resourceList li{
+      font-size: 18px;
+    }
     h2{
         font-size: 32px;
     }
@@ -337,6 +342,10 @@ footer input{
 
     .cert-list li,  .services li, .accounts li{
         font-size: 28px;
+    }
+
+    .resourceList li{
+      font-size: 22px;
     }
 
     h2{
