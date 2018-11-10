@@ -21,7 +21,7 @@ html, body{
 }
 body{
     font-family: 'Raleway', sans-serif;
-    background-color:#fffafaa1;
+    background-color:#f8f8f8;
 
 }
 
@@ -167,8 +167,28 @@ header nav{
 .info {
   /* animation: expand 1s ease-in-out; */
   background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
 }
+
+#tax-services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#tax-services p{
+  width: 90%;
+}
+
+#tax-services img{
+  width: 70%;
+  max-width: 200px;
+}
+
 
 p{
   margin: 0;
@@ -305,6 +325,14 @@ footer input{
 
     .resourceList li{
       font-size: 18px;
+    }
+
+    #tax-services img{
+      width: 40%
+    }
+
+    #tax-services p{
+      width: 60%;
     }
     h2{
         font-size: 32px;
