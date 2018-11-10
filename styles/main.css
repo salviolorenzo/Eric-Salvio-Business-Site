@@ -173,7 +173,7 @@ header nav{
 }
 
 #tax-services{
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
