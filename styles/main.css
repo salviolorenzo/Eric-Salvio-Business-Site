@@ -37,7 +37,7 @@ a{
     color: black;
 }
 a:hover{
-    color: rgb(20, 102, 255);
+    color: rgb(29, 157, 255);
     transform: scale(2);
 }
 
@@ -53,6 +53,13 @@ header{
 header a, footer a{
     color: white;
 }
+
+header li:hover{
+  transform: scale(1.2);
+  transition: transform 0.25s;
+  opacity: 1;
+}
+
 header h1{
     margin:0;
     padding-top:10px;
@@ -288,9 +295,9 @@ footer i{
 }
 
 footer i:hover{
-    color: cornflowerblue;
-    transform: scale(1.5);
-    transition: transform .25s;
+  color: rgb(29, 157, 255);
+  transform: scale(1.5);
+  transition: transform .25s;
 }
 
 footer form{
@@ -303,10 +310,12 @@ footer input{
     width: 80%;
     margin: 10px auto;
     padding: 10px;
+    border-radius: 5px;
 }
 
 footer p{
   font-size: 16px;
+  padding: 0 10px;
 }
 
 .disclosures{
