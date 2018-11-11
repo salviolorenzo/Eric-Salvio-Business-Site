@@ -41,10 +41,15 @@ a:hover{
     transform: scale(2);
 }
 
+section{
+  padding: 10px;
+}
+
 header{
     border-bottom: 1px black solid;
     text-align: center;
     position: fixed;
+    z-index: 5;
     padding: 0;
     width:100%;
     background-color:black;
