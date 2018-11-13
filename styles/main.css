@@ -272,6 +272,14 @@ p{
   /* width: 50%; */
 }
 
+#nestedList1, #nestedList2:hover{
+  transform: scale(1);
+}
+
+.resourceList li ul li{
+  font-size: 12px;
+}
+
 footer{
     text-align: center;
     border-top: 1px solid black;
