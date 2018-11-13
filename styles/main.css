@@ -261,6 +261,14 @@ p{
     border-bottom: 1px solid rgba(232, 237, 255, 0.9);
 }
 
+.service-p:hover{
+  color: black;
+}
+
+.account-links li:hover, .service-list li:hover{
+  color: rgb(29, 157, 255);
+}
+
 .services li:hover, .account-links li:hover{
   cursor: pointer;
 }
@@ -270,10 +278,6 @@ p{
   font-size: 16px;
   border: none;
   /* width: 50%; */
-}
-
-#nestedList1, #nestedList2:hover{
-  transform: scale(1);
 }
 
 .resourceList li ul li{
@@ -362,6 +366,10 @@ footer p{
       font-size: 18px;
     }
 
+    .resourceList li ul li{
+      font-size: 14px;
+    }
+
     #tax-services img{
       width: 40%
     }
@@ -409,6 +417,10 @@ footer p{
 
     .resourceList li{
       font-size: 22px;
+    }
+
+    .resourceList li ul li{
+      font-size: 18px;
     }
 
     h2{
