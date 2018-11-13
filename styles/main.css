@@ -7,6 +7,10 @@
   }
 }
 
+/* ================================================================
+GLOBAL STYLES
+=================================================================== */
+
 html {
   box-sizing: border-box;
 }
@@ -45,6 +49,10 @@ section{
   padding: 10px;
 }
 
+/* ================================================================
+HEADER
+====================================================================== */
+
 header{
     border-bottom: 1px black solid;
     text-align: center;
@@ -77,6 +85,9 @@ header nav{
     justify-content: space-evenly;
 }
 
+/* ================================================================
+LANDING IMAGE
+=================================================================== */
 
 .hero-image, .second-image ,.back-image3{
   background-size: cover;
@@ -103,6 +114,10 @@ header nav{
     width: 50%;
     max-width: 300px;
 }
+
+/* ================================================================
+OUR FIRM SECTION
+=================================================================== */
 
 .about{
     display: flex;
@@ -149,6 +164,9 @@ header nav{
     padding: 0 10px;
 }
 
+/* ================================================================
+SERVICES
+===================================================================*/
 .second-image{
     background-image: url('../images/calculator.jpeg');
 
@@ -185,23 +203,6 @@ header nav{
   padding: 10px;
 }
 
-#tax-services{
-  /* display: flex; */
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-#tax-services p{
-  width: 90%;
-}
-
-#tax-services img{
-  width: 70%;
-  max-width: 200px;
-}
-
 
 p{
   margin: 0;
@@ -222,6 +223,9 @@ p{
 
   /* animation: expand 5s ease-in-out; */
 }
+/* ================================================================
+RESOURCE CENTER
+=================================================================== */
 
 .back-image3{
     background-image: url('../images/handshake.jpeg');
@@ -261,6 +265,23 @@ p{
     border-bottom: 1px solid rgba(232, 237, 255, 0.9);
 }
 
+#tax-services{
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#tax-services p{
+  width: 90%;
+}
+
+#tax-services img{
+  width: 70%;
+  max-width: 200px;
+}
+
 .service-p:hover{
   color: black;
 }
@@ -283,6 +304,10 @@ p{
 .resourceList li ul li{
   font-size: 12px;
 }
+
+/* ================================================================
+FOOTER
+=================================================================== */
 
 footer{
     text-align: center;
@@ -343,6 +368,10 @@ footer p{
     font-size: 12px;
     padding: 0 10px;
 }
+
+/* ================================================================
+MEDIA QUERIES
+=================================================================== */
 
 @media screen and (min-width: 500px){
   .hero-image, .second-image ,.back-image3{
