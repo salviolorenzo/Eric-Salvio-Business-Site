@@ -2,7 +2,7 @@
 # EBS Financial Services
 - This was a very interesting project to build. I was able to experience what it is like to interact with a client that has specific needs for a website. The styling and logos were my creations, but the overall purpose of the site had stricter parameters.
 
--Technologies: HTML, CSS, Vanilla JS, EmailJS API
+-Technologies: HTML, CSS, Vanilla JS, AOS Library
 ## Landing
 ![alt text](READMEIMG/dtLanding.png)
 ![alt text](READMEIMG/mobileLanding.png)
