@@ -26,6 +26,8 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/main.css">
   <title>Eric Salvio | Home</title>
 </head>
@@ -44,7 +46,7 @@
   </section>
   <section class="about">
     <h2 id="about-me">Our Firm</h2>
-    <ul class="cert-list">
+    <ul class="cert-list" data-aos="fade-right">
       <li id="name">
         Eric B. Salvio
       </li>
@@ -52,7 +54,7 @@
       <li>Registered Representative</li>
       <li>Acccredited Investment Fiduciary &reg;</li>
     </ul>
-    <img src="images/head-shot.jpeg" alt="Headshot">
+    <img src="images/head-shot.jpeg" alt="Headshot" data-aos="fade-left">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum, rerum officiis perferendis neque iure quaerat
       at, et, mollitia quisquam minima itaque deleniti inventore obcaecati corporis deserunt reprehenderit rem illo. Lorem
       ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum animi, iure perspiciatis eligendi minima ipsum ullam,
@@ -64,7 +66,7 @@
   </section>
   <section class="services">
     <ul class="service-list" data-list1>
-      <li>Financial Planning
+      <li data-aos="fade-up">Financial Planning
         <div class="info info-hidden">
           <p class="service-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi nulla earum tenetur
             adipisci aperiam in corrupti ipsam vel quisquam, totam repellat vitae voluptatibus modi deserunt distinctio ipsa
@@ -74,7 +76,7 @@
           </p>
         </div>
       </li>
-      <li>Asset Management
+      <li data-aos="fade-up">Asset Management
         <div class="info info-hidden">
           <p class="service-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi nulla earum tenetur
             adipisci aperiam in corrupti ipsam vel quisquam, totam repellat vitae voluptatibus modi deserunt distinctio ipsa
@@ -85,7 +87,7 @@
             deleniti molestiae.
           </p>
       </li>
-      <li>Estate Planning
+      <li data-aos="fade-up">Estate Planning
         <div class="info info-hidden">
           <p class="service-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi nulla earum tenetur
             adipisci aperiam in corrupti ipsam vel quisquam, totam repellat vitae voluptatibus modi deserunt distinctio ipsa
@@ -96,7 +98,7 @@
             deleniti molestiae.
           </p>
       </li>
-      <li>Insurance Planning
+      <li data-aos="fade-up">Insurance Planning
         <div class="info info-hidden">
           <p class="service-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi nulla earum tenetur
             adipisci aperiam in corrupti ipsam vel quisquam, totam repellat vitae voluptatibus modi deserunt distinctio ipsa
@@ -107,7 +109,7 @@
             deleniti molestiae.
           </p>
       </li>
-      <li>Tax Return Preparation
+      <li data-aos="fade-up">Tax Return Preparation
         <div class="info info-hidden">
           <p class="service-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi nulla earum tenetur
             adipisci aperiam in corrupti ipsam vel quisquam, totam repellat vitae voluptatibus modi deserunt distinctio ipsa
@@ -130,7 +132,8 @@
         Investments
         <ul class="info info-hidden resourceList">
           <li><a href="https://investor.wealthscape.com/access/investor-index.html?login" target="_blank">Parkland Securities,
-              LLC</a></li>
+              LLC
+            </a></li>
           <li><a href="https://institutional.fidelity.com/app/home/individual-investors" target="_blank">Fidelity Investments</a></li>
           <li><a href="https://ltretire.com/sign-in/" target="_blank">LT Trust Company</a></li>
           <li><a href="https://portal.pensco.com/identity/login" target="_blank">Pensco Trust Company</a></li>
@@ -198,6 +201,10 @@
         LLC, SPC.</p>
     </section>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="scripts/index.js"></script>
 </body>
 
